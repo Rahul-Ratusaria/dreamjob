@@ -1,0 +1,33 @@
+<html>
+<head>
+<style>
+     img{
+	     position:relative;
+		 float:left;
+		}
+     .tagline{
+	     position:relative;
+		 top:30px;
+		 left:-150px;;
+         font-size:50px;
+		 font-family:Forte;
+        }	
+     .firstword{
+         color:#0000ff;
+        }	
+	 .image2{
+	     animation-name:rote;
+         animation-duration:4s;
+		 animation-iteration-count:infinite;
+		 }
+	 @keyframes rote{
+	     from{transform:rotatey0deg);}
+		 50%{transform:rotatey(-180deg);}
+		 100%{transform:rotatey(-360deg);} 
+		 } 	 		 
+</style>
+</head>
+<body>
+     <img src="logo.png" height="230px" width="200px" ><span class="tagline"><b class="firstword">T</b>oday's <b class="firstword">T</b>alent <b class="firstword">T</b>omorrow's <b class="firstword">S</b>uccess<span><img src="description.png" height="200px" width="200px" style="top:-85px;left:920px;"s class="image2">
+</body>
+</html>
